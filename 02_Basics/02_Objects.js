@@ -84,7 +84,31 @@ const obj5 = {...obj1,...myObj,...user}
 
 
 // console.log(user)
-console.log(Object.keys(user))  //returns array
-console.log(Object.values(user))  //  returns array
+// console.log(Object.keys(user))  //returns array
+// console.log(Object.values(user))  //  returns array
 
-console.log(user.hasOwnProperty("nam"))  //returns true/false
+// console.log(user.hasOwnProperty("nam"))  //returns true/false
+
+//-----------=================== Destructuring Object
+
+const cources = {
+    name:"Hindi",
+    price : 123,
+    place:"Lucknow"
+}
+// console.log(cources)
+
+const {name , price} = cources  // destructure
+console.log(price)
+
+// JSON - js object notation
+// {
+//     "name" : ":ritesh",
+//     "cources":"Englis"
+
+// }
+
+// [
+//     {},
+//     {}
+// ]
