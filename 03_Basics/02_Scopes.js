@@ -12,7 +12,7 @@ if (true) {
 
 //============================Nested scope =========================
 
-function  one(){
+function  one(){  //t
     const username = "Rietsh"
     function two(){
         const web = "Google"
@@ -23,3 +23,14 @@ function  one(){
 }
 
 one()
+
+beforeDec()  // we can call this function anywhere
+function beforeDec (){
+    console.log("Before DEc")
+}
+
+// we cant call it anywhere we can call only below the declaration 
+afterDec()  //afterDec Cannot access 'afterDec' before initialization
+const afterDec = function(){
+    console.log("After Dec")
+}
