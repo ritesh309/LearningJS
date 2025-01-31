@@ -28,6 +28,7 @@
 //     }
 //  )()  // undefined
 
+<<<<<<< HEAD
 // (
 //     (name )=>{
 //       console.log(name )
@@ -39,3 +40,16 @@
 //       console.log(name )
 //     }
 //  )("Ritesh" , "Hell")  // returns the array [ 'Ritesh', 'Hell' ]
+=======
+(
+    (name )=>{
+      console.log(name )
+    }
+ )("Ritesh" );  // returns Ritesh
+
+ (
+    (...name )=>{
+      console.log(name )
+    }
+ )("Ritesh" , "Hell")  // returns the array [ 'Ritesh', 'Hell' ]
+>>>>>>> 7936bf3ce68c9a859efde112fc8013fbf37cf666
