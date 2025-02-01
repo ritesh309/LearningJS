@@ -49,3 +49,9 @@
 // console.log(handleObj(userName))
 
 //=================================== function scopes 
+
+// A function that calls itself is called a recursive function
+const foo = function bar() {
+    // statements go herec
+    console.log("Tecursiv")
+  };
